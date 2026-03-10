@@ -1,6 +1,6 @@
 # ♟️ Chess
 
-A fully functional **two-player chess game** built from scratch using vanilla **JavaScript, HTML, and CSS** — no libraries, no frameworks, just pure front-end code.
+A fully functional **two-player chess game** built from scratch using **JavaScript, HTML, and CSS** — no libraries, no frameworks, just pure front-end code.
 
 ## 🎮 Live Demo
 
@@ -16,7 +16,6 @@ A fully functional **two-player chess game** built from scratch using vanilla **
   - Rook, Bishop, Queen, King, Knight
 - 🔄 Turn-based gameplay with automatic player switching
 - 🎯 Move highlighting — see valid moves before you commit
-- 👑 Check and checkmate detection
 - 🎨 Clean, responsive board design
 
 ---
@@ -37,7 +36,7 @@ A fully functional **two-player chess game** built from scratch using vanilla **
 Chess/
 ├── index.html      # Game board structure and UI
 ├── app.js          # Core game logic and state management
-├── pieces.js       # Piece definitions and movement rules
+├── pieces.js       # Piece definitions
 └── styles.css      # Board and piece styling
 ```
 
@@ -58,7 +57,7 @@ git clone https://github.com/DLaszlo2003/Chess-Project.git
 The game logic is split across two JavaScript files:
 
 - **`app.js`** manages the overall game state: the board, whose turn it is, selected pieces, and detecting check/checkmate conditions.
-- **`pieces.js`** defines each piece type and encodes its legal movement rules, used by the main logic to validate and highlight moves.
+- **`pieces.js`** defines each piece type used by the main logic to validate and highlight moves.
 
 ---
 
