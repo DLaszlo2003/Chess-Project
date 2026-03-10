@@ -125,7 +125,7 @@ function checkIfValid(target){
     const targetId = Number(target.getAttribute('square-id')) || Number(target.parentNode.getAttribute('square-id'))
     const startId = Number(startPositionId)
     const piece = draggedElement.id
-
+    // piece cases
     switch(piece){
         case 'pawn' :
             const starterRow = [8,9,10,11,12,13,14,15]
